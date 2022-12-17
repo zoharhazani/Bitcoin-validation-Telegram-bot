@@ -1,0 +1,7 @@
+version: '3.11'
+services:
+  app:
+    build: .
+    command: python bitcoinValidationBot.py
+    volumes:
+      - .:/app
